@@ -54,8 +54,8 @@ class ContactAdapter(
             emailTv.text = contact.email
         }
 
-        tcb.nameTv.text = contact.name
-        tcb.emailTv.text = contact.email
+//        tcb.nameTv.text = contact.name
+//        tcb.emailTv.text = contact.email
 
         // segunda forma de fazer, é a mesma coisa que o de cima, com viewBinding
         // nesse caso o return é a view
